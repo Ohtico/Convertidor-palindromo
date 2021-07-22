@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+body{
+    font-family: 'Uchen', serif;
+    background-image: url(https://tecreview.tec.mx/wp-content/uploads/2021/06/Cual-es-el-destino-del-universo.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+.cuerpo{
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    text-align: center;
+    background: rgba(135, 206, 250, 0.678);
+    padding: 5px 50px;
+    width: 50vw;
+    height: 50vh;
+}
+.cuadroText{
+    margin-left: 60px;
+    border: solid 1px #999;
+    padding: 7px;
+    justify-content: center;
+}
+form{
+    background-color: rgba(235, 74, 87, 0.589);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 20vw; 
+    margin-top: 20px;
+}
+.btn{
+    justify-content: center;
+    margin-left: 120px;
+}
+@media (max-width: 480px){
+    .cuerpo{
+        width: 65vw;
+        height: 62vh;
+        justify-content: flex-start;
+        font-size: 17px;
+        display: flex;
+    }
+    form{
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    h1{
+    font-size: 20px;
+    padding: 5px; 
+    color: whitesmoke;
+    }
+    p{
+        color: white;
+    }
+    form input{
+        position: relative;
+        right: 30px;
+    }
+    form input #verificar{
+       position: fixed; 
+       right: 100px;
+    }
+
+}
